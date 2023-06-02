@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding-top: 5%;
+}
+
+.header {
+    background: #E64A5C;
+    padding: 7%;
+    text-align: center;
+    color: white;
+    font-family: calibri;
+}
+
+
+/* nav bar CSS */
+
+.navbar {
+    background: #e04153;
+    padding: 1%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #393558;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1% 2%;
+}
+
+.navbar a:hover {
+    background-color: #393558;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar a:active {
+    background-color: #393558;
+}
+
+
+/*Jack is the best*/
+
+.pmain {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.google {
+    /* topic page header */
+    text-align: center;
+    font-family: calibri;
+    font-size: 250%;
+}
+
+
+/* Image Links */
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 7%;
+    padding-right: 2%;
+    padding-top: 5%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Footer CSS */
+
+.footer {
+    background: #393558;
+    padding: 3%;
+    color: white;
+    text-align: center;
+    float: bottom;
+}
+
+a.foota:link {
+    color: white;
+}
+
+a.foota:visited {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+.pmain {
+    font-family: calibri;
+}
+
+.bigboy {
+    padding-top: 30%
+}
+
+
+/* Quiz CSS */
+
+fieldset {
+    text-align: center;
+    border: none;
+}
+
+#buttonanswer {
+    text-align: center;
+}
+
+.questions {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+label {
+    font-size: 1.1em;
+    font-family: calibri;
+}
+
+textarea {
+    font-size: 1em;
+    font-family: calibri;
+}
+
+#q3,
+#q5 {
+    font-size: 1em;
+    font-family: calibri;
+}
+
+legend {
+    font-size: 1.5em;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#quiztext {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: calibri;
+}
+
+
+/* topic css */
+
+.bottommargin {
+    margin-bottom: 450px
+}
+
+.topicpadding {
+    padding-left: 15px;
+    padding-right: 80px;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #DC143C;
+}
+
+aside>p {
+    margin: .5rem;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+text-align: center;
+}
+
+.topic a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.topic a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.topic a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.topic a:active {
+    color: brown;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+    /* moves text to right when hovering */
+    padding: 5px 20px;
+    cursor: default;
+    transition: padding-left 400ms ease;
+}
+
+li:hover {
+    padding-left: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* allows smooth scrolling when clicking hyperlink */
+}
+
+table {
+    border: 1px solid black;
+    background-color: cadetblue;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+td {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.topiccenterimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 5px solid #E64A5C;
+}
+
+.topicimg {
+    width: 20%;
+    border: 5px solid #E64A5C;
+    float: right;
+}
+body {
+  color: #black;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/bg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+
+
+.form-wrapper {
+width:300px;
+height:370px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.27);
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+
+h3{
+  font-size: 25px;
+  font-weight: 640;
+  margin-bottom: 10px;
+  color: #e7e7e7;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+
+
+
+
+
